@@ -1,0 +1,14 @@
+caption{
+    color:aqua;
+    text-align: start;
+    text-decoration:  underline wavy blue ;
+    line-height: 25px;
+    font-weight: 900;
+        }
+#kasi:hover{
+    color: pink;
+    background-color: grey;
+}
+.kasi{
+    color: pink;
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <img src="luffy.jpg.jpg"alt="luffy image" width="200" height="200">
+    <!--................LISTS.................-->
+    <h1>LIST OF FRUITS</h1>
+    <ul>
+        <li>Apple<a href="">see an apple</a></li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+
+    <div>
+        <a href="www.google.com">Google</a>
+        <a href="www.facebook.com">Facebook</a>
+    </div>
+    <div>
+        <!--.....SUB and SUP SCRIPTS.......-->
+    a<sup> 2 </sup>=b<sup> 2 </sup> + c<sup> 2 </sup>
+H<sub> 2 </sub>O
+
+<!--.............TABLES.............-->
+
+<table border="black">
+    <caption>Food Menu</caption>
+    <thead>     <!--TABLE HEADER-->
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+    </thead> 
+
+    <tbody>     <!--TABLE BODY-->
+    <tr>
+        <td>Frooti</td>
+        <td>10</td>
+    </tr>
+
+    <tr>
+        <td>Maaza</td>
+        <td>20</td>
+    </tr>
+    </tbody>
+
+    <tfoot>   <!--TABLE FOOTER-->
+        <tr>
+            <td>sum</td>
+            <td>30</td>
+        </tr>
+    </tfoot>
+        
+</table>
+
+  <!--Another Table-->
+
+  <table border="black">
+    <caption> Food Menu </caption>
+    <thead>
+        <tr>
+            <th rowspan="2">ITEMS</th>
+            <th colspan="2">PRICE</th>
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Samosa</td>
+            <td>10</td>
+            <td>0.14</td>
+        </tr>
+        <tr>
+            <td>Bajji</td>
+            <td>12</td>
+            <td>0.17</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <!--.......................................PRACTICE QUESTION........................................-->
+
+  <table border="black">
+    <caption> A test table with merged cells</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">SEX</th>
+            <th colspan="2">AVERAGE</th>
+            <th rowspan="2">RED EYES</th>
+        </tr>
+        <tr>
+            <th>HEIGHT</th>
+            <th>WEIGHT</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div>
+    <img src="" alt="Naruto">
+</div>
+<hr>
+<a href="https://www.youtube.com">Youtube</a>
+
+<!--................................FORMS....................................-->
+
+<form action="/action">
+<input>         <!--input information-->
+<br>           
+<input type="text" placeholder="Enter name">
+<br>
+<input type="Password" placeholder="Password">
+<br>
+<br>
+<br>
+password<input type="Password">
+<br>
+number<input type="number">
+<br>
+time<input type="time">
+<br>
+color<input type="color">
+<br>
+button<input type="button">
+<br>
+Checkbox<input type="checkbox">
+
+<br>
+<!--label-->
+<label>
+    Username
+    <input type="text" placeholder="Enter name">
+</label>
+<br>
+<br>
+
+<!--...............................................................................-->
+<!--DIFFERENCE BETWEEN DIV AND SPAN-->
+<span>
+<label for="1132">Username: </label>
+<input type="text" id="1132" placeholder="Enter your name">
+</span>
+
+<span>
+<label for="11">Password: </label>
+<input type="number" id="11" placeholder="Enter your password">
+</span>
+
+<br>
+<br>
+
+<div>
+    <label for="1132">Username: </label>
+    <input type="text" id="1132" placeholder="Enter your name">
+</div>
+    
+    <div>
+    <label for="11">Password: </label>
+    <input type="number" id="11" placeholder="Enter your password">
+    </div>
+    <!--.........................................................................-->
+
+    <label>
+        Username
+        <input type="text" placeholder="Enter name">
+    </label>
+
+</form>
+
+<br>
+<br>
+
+<form action="https://www.google.com/search">
+<input type="text" placeholder="search in Google" name="q">
+<button>Search</button>
+</form>
+
+<form action="/server">
+    <input type="checkbox" id="123" name="age" checked>
+    <label for="123"> I AM 18+</label>
+    <button>Submit</button>
+</form>
+
+<br>
+<br>
+
+<form action="/server">
+    
+    <div>
+        <input type="radio" id="app" name="fruit" value="apple">
+        <label for="app"> Apple</label>
+
+        <input type="radio" id="man" name="fruit" value="mango">
+        <label for="man"> Mango</label>
+    </div>
+    <button>Submit</button>
+</form>
+<br>
+<br>
+<form action="/server"><div>
+   <label for="prof"> CHOOSE YOUR PROFFESION </label>
+            <select name="professor" id="prof">
+                    <option value="student"> STUDENT </option>
+                    <option value="dev"> DEVELOPER </option>
+            </select>
+    </div>
+    <button>Select</button>
+
+
+<div>
+    <label for="volume"> SELECT YOUR VOLUME </label>
+    <input type="range" id="volume" name="vol" min="0" max="100" step="10">
+</div>
+<button>SUBMIT</button>
+
+<div>
+    <label for="234">FEEDBACK</label>
+    <textarea id="234" name="feed" rows="5" cols="100"></textarea>
+</div>
+<button>Submit</button>
+
+</form>
+<br>
+<br>
+<b>REGISTRATION FORM</b>
+<form action="/server">
+    <div>
+    <input type="text" placeholder="Firstname" name="name">
+    <input type="text" placeholder="Lastname" name="name">
+    </div>
+
+    <div>
+        <label for="1223">Please Select Gender</label>
+        <select id="1223" name="gender">
+            <option>select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+
+    <div>
+        Do you agree to all terms and services?
+        <input type="checkbox" id="33" name="se">
+        <label for="33">Yes, I Agree</label>
+    </div>
+    <button type="submit">Register</button>
+</form> 
+
+<br>
+<br>
+
+<div>
+<form action="/server">
+    <label for="111">Username:</label>
+    <input type="text" placeholder="Enter your name" id="111" name="name">
+    <hr>
+    <label for="2222">Set your volume:</label>
+    <input type="range" min="0" max="100" step="10" name="volume" id="2222">
+    <hr>
+    is karthik a ?
+    <input type="checkbox" id="3333" name="Gender">
+    <label for="3333"> Gay</label>
+
+    <input type="checkbox" id="889" name="Gender">
+    <label for="889"> Girl</label>
+</div>
+<button>Submit</button>
+<hr>
+<hr>
+<div>
+    <input type="radio" id="4444" name="Car" value="hun">
+    <label for="4444">Hundai</label>                                <!--name should be same in radio-->
+
+    <input type="radio" id="0000" name="Car" value="M">
+    <label for="0000">MG</label>
+</div>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="button">Button</button>
+<hr>
+</form>
+
+<form action="/server">
+<div>
+    <label for="001" >Select any one</label>
+    <select id="001" name="nami">
+        <option>Select</option>
+    <option value="arthik">Karthik</option>
+    <option value="aran">Charan</option>
+</select>
+</div>
+<button type="submit">Submit</button>
+
+<hr>
+<hr>
+<div>
+        <label for="887">FEEDBACK</label>
+        <textarea id="887" placeholder="Enter text"rows="20" cols="100" name="text"></textarea>
+</div>
+<button>Submit</button>
+<hr>
+
+<div>
+    <label for="101">Password: </label>
+    <input type="number" id="101" placeholder="Enter your password" name="pass">
+    </div>
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<hr>
+<hr>
+
+<a href="https://www.Google.com" >Google</a>
+<img src="" alt="" width="" height="">
+<hr>
+<hr>
+
+
+    <h1>Car Info</h1>
+<table border="blue">
+    <tr> 
+        <th rowspan="2"> CAR </th>
+        <th colspan="2"> PRICE </th>
+    </tr>
+    <tr>
+        <th>M1</th>
+        <th>M2</th>
+    </tr>
+    <tr>
+        <td>Hundai</td>
+        <td>600000</td>
+        <td>7500000</td>
+    </tr>
+    <tr>
+        <td>Mahindra</td>
+        <td>500000</td>
+        <td>8000000</td>
+    </tr>
+</table>
+</body>
+</html>
+

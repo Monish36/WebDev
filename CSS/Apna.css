@@ -1,0 +1,31 @@
+h1{
+    color:pink;
+}
+p{
+    color:black;
+}
+button{
+    color:blue;
+    background-color: gold;
+}
+h1{
+    text-align:center;
+}
+p{
+    font-weight:900;
+
+}
+
+h3{
+    text-decoration: green underline;
+    text-decoration-style:wavy;
+}
+h4{
+    text-decoration:underline;
+    text-decoration-color:gold;
+    text-decoration-style:dashed;
+}
+h5{
+    text-decoration:double cyan overline;
+}
+

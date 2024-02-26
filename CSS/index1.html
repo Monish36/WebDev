@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS PRACTICE-1</title>
+    <link rel="stylesheet" href="Apna1.css">
+
+
+</head>
+<body>
+    <hr>
+    <!-- 1. TABLES -->
+<table border="black">
+    <caption > <i>  PERSONAL DETAILS </i></caption>
+    <thead>
+        <tr> 
+            <th rowspan="2">SNO</th>
+            <th rowspan="2">PERSON</th>
+            <th id="kasi" colspan="2">SALARY</th>
+            <th colspan="2">CAR</th>
+        </tr>
+
+        
+        <tr>
+            <th>Total</th>
+            <th>Cutoff</th>
+            <th>CAR-1</th>
+            <th>CAR-2</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+        <td>1.</td>
+        <td> <b>  Yaswanth  </td></td>
+        <td>9,00,000</td>
+        <td>4,00,000</td>
+        <td>Audi</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td>2.</td>
+        <td> <b> Charan  </td></td>
+        <td>13,00,000</td>
+        <td>7,00,000</td>
+        <td>Benz</td>
+        <td>Hundai</td>
+    </tr>
+
+    <tr>
+        <td>3.</td>
+        <td> <b>  Karthik </td></td>
+        <td>0</td>
+        <td>0</td>
+        <td>BMW</td>
+        <td>Hundai</td>
+    </tr>
+</tbody>
+<tfoot>
+
+</tfoot>
+</table>
+<br>
+
+
+<!--..........................................Forms....................................................-->
+<form action="/action">
+
+    <!--TEXT-->
+    <label for="asi"> Username: </label>
+    <input id="asi" type="text" placeholder="Enter your name" name="name">
+
+<br>
+
+    <!--CHECKBOX  (single) -->
+    <input type="checkbox" id="kasii" name="age">
+    <label for="kasii"> i am 18+ </label>
+    <br>
+    <!--(Double)-->
+    Select your subjects: 
+    <input type="checkbox" id="bio" name="subject">
+    <label for="bio">biology</label>
+    <input type="checkbox" id="Hin" name="subject">
+    <label for="Hin">Hindi</label>
+
+<br>
+
+    <!--Radio-->
+    Select ypor vehicle:
+    <input type="radio" id="vehi" name="vehicle">
+    <label for="vehi"> Car</label>
+    <input type="radio" id="veh" name="vehicle">
+    <label for="veh">Bike</label>
+
+    <br>
+
+    <!--Select-->
+
+    <label for="prof">Choose you profession:</label>
+    <select name="profession" id="prof">
+        <option> select your option</option>
+        <option>student</option>
+        <option>proferssor</option>
+    </select>
+
+    <br>
+    <!--Range-->
+    <label for="volume"> Select volume     </label>
+        <input type="range" id="volume" min="0" max="100" step="10">
+
+        <br>
+    
+        <!--Textarea-->
+    <label for="s">Feedback</label>
+    <textarea id="s" placeholder="enter your feedback" rows="5" cols="25"></textarea>
+
+    <br>
+    <input type="color">
+
+
+
+    <button type="submit">Submit</button>
+</form>
+
+
+
+
+
+
+</body>
+</html>
